@@ -5,7 +5,10 @@ An end-to-end Machine Learning application that predicts whether a customer is l
 The project uses **Logistic Regression** as the final prediction model and provides an interactive **Streamlit web application** where users can enter customer details and receive a churn probability and risk assessment.
 
 ---
+## 🚀 Live Demo
 
+-https://diabetes-prediction-app0-1.streamlit.app/
+---
 ## Project Overview
 
 Customer churn occurs when a customer stops using a company's services.
