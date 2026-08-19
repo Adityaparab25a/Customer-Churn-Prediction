@@ -274,7 +274,7 @@ customer-churn-project/
 Clone the repository:
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone (https://github.com/Adityaparab25a/Customer-Churn-Prediction)
 ```
 
 Navigate into the project:
