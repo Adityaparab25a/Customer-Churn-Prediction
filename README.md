@@ -7,7 +7,7 @@ The project uses **Logistic Regression** as the final prediction model and provi
 ---
 ## 🚀 Live Demo
 
--https://diabetes-prediction-app0-1.streamlit.app/
+https://customer-churn-prediction115.streamlit.app/
 ---
 ## Project Overview
 
