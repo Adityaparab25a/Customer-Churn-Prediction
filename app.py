@@ -173,16 +173,22 @@ if predict_button:
     st.metric(
     "Churn Probability",
     f"{probability * 100:.2f}%"
-)
 
+    )
+    st.progress(
+    min(float(probability), 1.0),
+    text=f"Churn probability: {probability * 100:.2f}%" 
+
+    )
+    
     if probability >= 0.40:
-        st.error("High Churn Risk")
+        st.error("HIGH CHURN RISK")
         st.write(
-        "This customer is likely to churn. "
+        "This customer has a higher likelihood of churning. "
         "Consider taking retention action."
-        )
+    )
     else:
-        st.success("Low Churn Risk")
+        st.success("LOW CHURN RISK")
         st.write(
-        "This customer is likely to stay."
-        )
+        "This customer has a lower likelihood of churning."
+    )   
